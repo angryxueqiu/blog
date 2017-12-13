@@ -1,5 +1,5 @@
 +++
-title = "The Net Neutrality Rollback and How Skycoin Can Defeat It"
+title = "网络中立后退和Skycoin如何战胜它"
 tags = [
     "Statement",
     "Net Neutrality",
@@ -12,31 +12,28 @@ categories = [
 ]
 +++
 
-In 2015, the FCC instituted net neutrality rules classifying the internet as a public utility. This prevented internet service providers (ISPs) from prioritizing certain websites over others and encouraged a free and open internet where all businesses and individuals could thrive.
-
-Now, under Trump-appointed FCC chairman Ajit Pai, a vote to slash net neutrality protections is looming. Pai was nominated for a second five-year term on October 2 despite widespread outcry over his agenda. Petitions with tens of thousands of signatures were powerless to prevent this outcome. With Pai in charge, it’s only a matter of time before net neutrality is dismantled.
-
-## What does an internet without net neutrality look like?
-
-Imagine this: you go online, but you can only see a small set of pre-approved websites backed by a single corporate ISP. You want to stream a movie, but you can’t afford the bandwidth. You look for the movie on another service, but you can’t legally access it because your ISP bans you. Free sites now have an access charge. Other sites are blocked and vanish from search results. You can’t find your friend’s blog or contact the small business down the street. Your ISP collects your data and monitors your actions online, controlling everything you see and how you see it – and you can’t do a thing about it.
-
-## Without net neutrality, the internet no longer belongs to you. It belongs to Them.
+在2015年，FCC制定网络中立性规则分类的互联网作为公共事业。这从优先于其他某些网站，防止互联网服务提供商（ISP），并鼓励自由开放的地方都能上网，企业和个人可以茁壮成长。
 
 
-This is the world we’re about to see. Under Pai, the FCC will almost certainly pursue a course of deregulation that will allow ISPs to throttle websites who can’t pay their ransom. From there, it’s a short step to censorship and the death of online interaction, art, and innovation.
+如今，特朗普任命的FCC主席阿吉特排(Ajit Pai)之下，一票削减网络中立性的保护是迫在眉睫。特排于10月2日被提名连任, 为期五年，尽管普遍的抗议了他的日程。与签名数以万计的请愿书是无力阻止这一结果。随着他的在任，网络中立性被碌碌破坏只是时间问题。
 
-The non-response to outcry against Pai this summer shows that we can’t rely on traditional means to stop the net neutrality rollback. We need a different solution. That’s where Skycoin comes in.
+## 没有网络中立的互联网会是什么一回事？
 
-Skycoin technology creates an alternative internet. It provides a peer-to-peer network that circumvents ISPs to deliver control back to the user. You can share content freely without throttling, blocking, or censorship. It’s fast, private, and encrypted to be maximally secure. Plus, decisions on the Skycoin network are controlled by community consensus, not by corporations looking for a profit.
+想像一下：你去上网，但是你只能看到一小部分由单个企业的ISP支持预先核准的网站。要流式播放电影，但你无法承受带宽的价钱。你去其他源头看电影，但由于您的ISP禁止了你，你不能合法地访问它。免费的网站现在会收取接入费。其它网站被封锁，从搜索结果中消失。你无法找到你的朋友的博客，或在街上的小企业。您的ISP收集数据和在线监测你的行动，控制你看到的一切，以及如何你看到它 - 你无计可施。
 
-Peer-to-peer technology doesn’t require you to give up your identity and data to access content. Skycoin’s network, Skywire, provides a blockchain-based decentralized network where you can browse securely and privately. With Skywire, you own your data and control your own experience.
-The Skywire “miner” is the backbone of this new internet. This miner lets users earn Skycoins by deploying network nodes, forwarding network traffic, or contributing resources. The Skycoin system incentivizes a free and community-based model whereby users take responsibility for the network’s growth and viability. Instead of giving up control to exploitative corporate ISPs, users create their own experience. Skywire is self-sustaining and independent.
+## 没有性的网络，不再属于您, 而是属于他人的.
 
+这是我们即将看到的世界。在阿吉特排之下，联邦通讯委员会几乎肯定会在管制的过程中，将允许互联网服务供应商扼杀不能支付
+"赎金"的网站。从那里，这是一小步，以审查和网上互动，艺术和创新步向死亡。
 
-The advantages of a free and open internet are clear. With equal access and net-neutral protections in place, users can find the content they want without fear of blocking, surveillance, or legal threats. Smaller businesses can innovate without being smothered. The public benefits from increased transparency on topics ranging from policy to health. Art becomes accessible to a broader demographic, and diverse perspectives can be heard. Users can choose and create their own content, rather than consuming a limited set of corporate products.
+今年夏天,阿吉特排对人们抗议的漠视表明了，我们不能依靠传统的手段来制止网络中立后退。我们需要一个不同的解决方案。这就是Skycoin用武之地。
 
+Skycoin技术创造的替代网络。它提供了一个对等网络的网络，从互联网服务供应商手中把控制权还给用户。你可以自由地共享内容，而不节流，阻塞或审查。它速度快，私有和加密是最大的安全。另外，在Skycoin网络上的决定是由社会共识来控制，而不是寻找一个盈利的公司。
 
-Free and open internet is under attack now more than ever. If the FCC won’t back net neutrality legislation this year, it’s up to us to regain control and make sure the internet remains a public resource equally available to everyone.
+对等网络技术不需要你放弃你的身份和数据的访问内容。 Skycoin的网络，Skywire，提供了一个基于blockchain，分散的网络，你可以安全地和私下浏览。随着Skywire，你拥有你的数据和控制自己的物体验。该Skywire“矿工”是这个新的互联网骨干。该矿工可以让用户通过部署的网络节点，转发网络流量，或者造成资源赚取Skycoins。该Skycoin系统刺激行为自由和社区为基础的模型，即用户认为网络的发展和生存能力的责任。而不是放弃控制，剥削企业的互联网服务供应商，用户可以创建自己的经验。 Skywire是自立和独立的。
 
+一个自由，开放的互联网的优势是显而易见的。有了平等的机会和中立的保护下，用户可以找到自己想要的内容，而不必担心阻塞，监控，或法律威胁。小企业可在不扼杀创新之下发展。从提高透明度的主题，从政策到健康的公共利益。更广泛的团体可以接触得到艺术, 多向并且不同的观点可以被听到。用户可以选择并创建自己的内容，而不是消费有限的企业的产品。
 
- The Skywire network proves that we don’t need to rely on ISPs to explore the internet. Skywire’s protocol and custom-built hardware provides a global, decentralized network that’s fair and user-centric. With this network, the Skywire community can defeat the FCC’s planned rollback of net neutrality and bring the internet back to you and other users where it belongs. We can create a free and open internet for all.
+现在自由开放的互联网所受到的攻击，比以往任何时候都多。如果FCC不在今年收回网络中立立法，就由我们来重新获得控制权，并确保互联网保持同样提供给大家一种公共资源。
+
+Skywire网络证明，我们并不需要依靠互联网服务供应商开拓网络。 Skywire的协议和定制硬件提供一个全球性的，分散的网络，公平和以用户为中心。有了这个网络，Skywire社会能够战胜FCC的计划的网络中立的后退，并把互联网回来还给你和它所属的其他用户。我们最后就可以创俐健建立为自由和开放的互联网。
