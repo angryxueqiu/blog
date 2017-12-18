@@ -110,5 +110,5 @@ for Consensus over P2P Network.
 
 *阅读更多：*
 
-* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-skycoin-consensus-algorithm/)*
+* *[Skycoin共识算法白皮书](https://www.skycoin.net/whitepapers)*
+* *[方尖碑共识算法](/statement/obelisk-skycoin-consensus-algorithm/)*
