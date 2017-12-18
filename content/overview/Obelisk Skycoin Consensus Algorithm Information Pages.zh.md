@@ -18,7 +18,7 @@ author = "johnstuartmill"
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [共识亮点](#consensus-highlights)
-    - [为什么使用共识?](#为什使用共识?)
+    - [为什么使用共识?](#why-consensus)
     - [高可扩展性和低能源消耗](#high-scalability-and-low-energy-consumption)
     - [协同攻击下的稳健性](#robust-to-coordinated-attacks)
     - [“51％攻击”](#the-%E2%80%9C51-percent-attack%E2%80%9D)
