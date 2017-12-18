@@ -31,7 +31,8 @@ author = "johnstuartmill"
 <!-- /MarkdownTOC -->
 
 
-## Consensus highlights(共识亮点)
+## Consensus highlights
+共识亮点
 
 ### 为什使用共识?
 
