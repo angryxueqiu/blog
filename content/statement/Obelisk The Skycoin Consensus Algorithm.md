@@ -12,130 +12,87 @@ categories = [
 
 ![Obelisk The Skycoin Consensus Algorithm](/img/obelisk-the-skycoin-consensus-algorithm.png)
 
-The Skycoin blockchain makes use of a novel type of consensus algorithm
-called "Obelisk" that replaces both Proof of Work (“PoW”) and Proof of Stake
-(“PoS”).
+Skycoin区块链使用一种新型的共识算法，称为“方尖碑”，取代了工作证明（“PoW”）和证明利益（“PoS”）。
 
-The aim of the developers of Skycoin was to correct the major security flaws
-and “centralizing tendencies” associated with blockchain networks in which
-consensus is based on PoW or PoS algorithms and coin creation is linked to a
-mining process. Skycoin is therefore trying to create a cryptocurrency that
-better fulfills Satoshi’s original vision of a fully decentralized digital
-currency system.
+Skycoin开发商的目标是纠正与区块链网络相关的主要安全缺陷和“集中趋势”，其中共识基于PoW或PoS算法，并且硬币创建与挖掘过程相关联。因此，Skycoin试图创建一个能够更好地满足Satoshi对完全分散的数字货币系统的初始愿景的加密货币。
 
-In doing so, Skycoin technology creates a blockchain network with no mining
-requirement, fixed supplies of crypto-tokens, 10-second transaction times, and
-greater security. In a system in which the connection between coin creation
-and control over the network is severed, crypto-tokens lose their political
-function and begin to act more like a form of digital property in the
-straightforward sense.
+Skycoin技术创建了一个没有采矿要求的区块链网络，固定的加密令牌，10秒的交易时间和更高的安全性。在硬币创造和网络控制之间的联系被切断的系统中，密码令牌失去了其政治功能，并且在直截了当的意义上开始更像是一种数字财产的形式。
 
-## Proof of Work and the Bitcoin system
+## 工作证明和比特币系统
 
-It was a fundamental miscalculation in the early programming of Bitcoin that
-the mining process would produce an economic incentive structure that would
-promote decentralization. In fact, the link between consensus and hashing
-power incentivizes the purchase of ever increasing processing capacity to
-control the consensus network.
+在比特币的早期编程中，这是一个根本上的错误估计，即采矿过程会产生一个促进分权的经济激励结构。事实上，协商一致和散列权力之间的联系，激励购买日益增长的处理能力来控制共识网络。
 
-The Bitcoin network, for instance, is de facto controlled by three for-profit
-mining pools which have been able to concentrate a large part of the network’s
-hashing power on its servers. These pools have begun to act as a cartel,
-splitting hashing power among each other by agreement. The link between mining
-and control of the network was already identified by Satoshi as the main
-non-cryptographic threat to the stability of the network. It allows actors who
-accumulate sufficient processing power and achieve a majority hash rate to
-falsify or revert transactions on the network in a 51% attack. Some argue that
-this vulnerability has become less pressing in an environment where hash power
-is highly centralized with actors who have invested large sums in the Bitcoin
-network and depend for their survival on the high value of the coin. Yet the
-power to influence the network is still highly concentrated, defeating the
-purpose of a distributed ledger-based cryptocurrency.
+例如，比特币网络实际上由三个营利性公司控制
+采矿池已经能够集中大部分的网络
+在服务器上散列电源。这些池已经开始充当合作社，
+通过协议拆分哈希函数。  采矿之间的联系
+网络的控制已经被Satoshi确定为主要
+非加密网络稳定性的威胁。它允许
+积累足够的处理能力的"演员"，实现多数散列率
+同時在51％的攻击中伪造或反向(恢复)网络上的交易。 
+有人認為這個漏洞在對在比特幣中投入大筆資金和有高度集中
+網絡，並依賴於他們在硬幣的高價值上的生存的"演員"的環境下變得不那麼緊迫。因為他們自己同是都依賴硬幣的價值。然而，
+影響網絡的力量依然高度集中，擊敗了
+基於分佈式賬本的加密貨幣的目的。
 
-The Bitcoin network’s PoW algorithm thus introduces security and monopoly
-problems by placing power over the network with the actor capable of
-mobilizing enough economic resources to control the mining process.
+比特币网络的PoW算法因此引入了安全性和垄断问题，通过赋予网络权力来调动足够的经济资源来控制开采过程。
 
-This also implies that the operation of the network is both economically and
-environmentally inefficient. The continuous input of processing power required
-by the mining process uses up large amounts of electricity, incurring monthly
-costs in the tens of millions. These costs can only be offset with an
-exponentially growing influx of new capital along with new users. Only a very
-small number of well-established coins, like Bitcoin and Ethereum, will be
-able to attract enough users to achieve such a continual flow. In the case of
-most other PoW/PoS-based coins, the cost
-of PoW/PoS mining is paid for in a lower market valuation as money is bled
-out of a coin by mining costs until the coin is abandoned.
+这也意味着网络的运行在经济上和环境上都是低效的。由于采矿过程所需的处理能力的不断输入消耗了大量的电力，每月造成数千万的成本。这些成本只能随着新增资本和新用户数量的成倍增长而抵消。像比特币和以太坊这样的只有很少的硬币才能够吸引足够的用户来实现这种持续的流动。就大多数其他以PoW / PoS为基础的硬币而言，PoW / PoS开采的成本以较低的市场估值支付，因为通过开采成本将金币从硬币中排出，直到硬币被抛弃。
 
->Right now the Bitcoin economy consists of new users putting their money in
-and then the money being thrown in a pit and burned in a sacrifice ritual to
-the mining electricity costs. If the average user had to pay the miners’
-electricity cost directly as transaction fees, instead of it being robbed from
-them through inflation by the creation of new coins, then each Bitcoin
-transaction would cost more than $50. It would be more expensive than an
-international bank transfer.
+目前比特币经济包括新用户投入资金，然后把资金投入到一个矿坑中，并在采矿电费的中烧毁。如果普通用户不得不把矿工的电费直接作为交易费支付，而不是通过创造新硬币的通货膨胀而被抢走，那么每笔比特币交易将花费超过50美元。这将比国际银行转帐更昂贵。
 
-## The centralizing tendency of Proof of Stake
 
-Although Proof of Stake algorithms tackle the security issue of 51% attacks,
-they are arguably even more vulnerable to centralization than PoW networks. In
-PoS, the size of network participants’ holdings of the cryptocurrency in the
-network determines their authority and voting power to implement technical
-changes in the network. Participants are able to mine an equivalent portion of
-their stake regardless of processing power.
+##工作证明的集中化趋势
 
-This principle significantly increases the economic barriers to launching a
-51% attack because the financial cost of acquiring the majority of tokens on
-the network in the open market is very likely to exceed the potential gain. If
-an attacker ends up as the majority stakeholder in the network, he will suffer
-most from the impact of the attack on the stability of the network or the
-external value of the cryptocurrency.
+尽管证据证明算法解决了51％攻击的安全问题，但它们可能比PoW网络更容易集中化。在PoS中，网络参与者在网络中加密货币的大小决定了他们在网络中实施技术变更的权力和投票权。参与者无论处理能力如何，都能够获得相同份额的权力。
 
-Yet, although raising the barriers to human-led attacks on the network, PoS
-creates a centralizing impulse which is as strong as, if not stronger than, in
-the case of PoW. As Joseph Young summarizes in his comparison of the two
-systems at [coinfox.info](http://www.coinfox.info/), “A system where the major
-stakeholder enjoys extensive control and authority over both technical and
-economic aspects of the network creates a major monopoly problem.” While in PoW
-voting on the implementation of technical changes to the network “is divided
-among miners, developers and other crucial members of the community,” in a PoS
-system “major stakeholders have a technical ability to make any changes they
-like without considering the will of the community, businesses, miners and
-developers. This centralisation of voting power and, essentially, control of
-the network defeats the purpose of a distributed ledger-based cryptocurrency
-since it contradicts its entire principle of distributing all elements within
-the network to avoid the presence of a central authority.”
+这一原则显着增加了发起51％攻击的经济障碍，因为在公开市场上获取大部分网络令牌的财务成本很可能超过潜在收益。如果攻击者最终成为网络中的大多数利益相关者，他将受到攻击对网络稳定性或加密货币外部价值的影响。
 
-## Obelisk: Skycoin's distributed consensus algorithm
 
-To tackle this centralization problem, Skycoin moves beyond PoW/PoS.
-It uses a distributed consensus algorithm, called Obelisk, which
-distributes influence over the network according to a “web of trust”. In
-essence, every node has a list of other nodes that it subscribes to, and the
-density of a node’s network of subscribers determines its influence on the
-network. Each node is assigned a personal blockchain which acts as a “public
-broadcasting channel” on which all of a node’s actions are visible and
-publicly recorded. As all consensus decisions and communication occur through
-the personal blockchains of each node, the community can very easily audit
-nodes for cheating or collusion. How decisions on the network are made and
-which nodes influence those decisions is completely transparent.
+然而，虽然提高了人为主导的网络攻击的障碍，PoS
+创造了一个集中的冲动，这个集中的冲动如果不是强于，
+PoW的情况。正如约瑟夫·杨在两人的比较中总结的那样
+系统在[coinfox.info](http://www.coinfox.info/)，“一个系统的主要
+利益相关者在技术和管理方面享有广泛的控制和权力
+网络的经济方面造成了一个重大的垄断问题
+对网络技术变革的实施进行投票“是分裂的
+在矿工，开发商和社区的其他关键成员之间“，在PoS
+系统“主要利益相关者有技术能力做出任何改变
+就像没有考虑到社区，企业，矿工和企业,
+开发人员的意愿。这种投票权的集中化，基本上是对投票权的控制
+网络击败了分布式账本的数字货币的目的
+因为它与其内部分配所有内容的全部原则相矛盾
+网络避免中央当局的存在“。
 
-The public record left by each node’s personal blockchain allows the network
-to react to defections by severing connections with less trustworthy or
-malicious nodes, contracting the network to a smaller and denser core of
-trusted nodes. Hence, in principle, if the community does not trust the nodes
-representing them or feels that power within the network is too concentrated
-(or not concentrated enough) the community is able to collectively shift the
-balance of power in the network by collectively changing their trust
-relationships in the network. The accountability of nodes to the community and
-3rd party audits as well as the transparency of consensus strengthens
-collective decision-making and thus introduces a highly democratic and
-decentralizing element to the network.
+## 方尖碑：Skycoin的分布式共识算法
 
-This system provides for a digital currency system with significantly reduced
-transaction times, no mining requirement, and greater security.
+为了解决这个集中化问题，Skycoin超越了PoW / PoS。
+它使用分布式共识算法，称为方尖碑，它
+根据“信任网络”在网络上分配影响力。在
+本质上，每个节点都有其订阅的其他节点的列表，
+节点的用户网络密度决定了其对网络的影响
+网络。每个节点都被分配一个个人区块链，充当“公共”
+广播频道“，节点的所有动作都是可见的
+公开记录。因为所有的共识决定和沟通都是通过
+每个节点的个人区块链，社区可以非常轻松地进行审计
+作弊或共谋的节点。如何在网络上作出决定
+哪些节点影响这些决定是完全透明的。
 
-*Read more:*
+每个节点的个人区块链留下的公共记录允许网络
+通过切断与不太值得信赖的联系来应对叛逃
+恶意节点，把网络缩小到更小，更密集的核心
+可信节点。因此，原则上，如果社区不信任节点
+代表他们或感觉网络内部的权力过于集中
+（或者不够集中）社区能够集体转移
+网络中的权力平衡通过集体改变他们的信任
+网络中的关系。节点对社区和社区的问责
+第三方审计以及共识的透明度得到加强
+集体决策，从而引入了高度民主和科学的
+分散元素到网络。
 
-* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm | Information Pages](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
+这个系统大大减少了数字货币系统的交易时间，没有的采矿要求和更高的安全性也随之而来。
+
+*阅读更多:*
+
+* *[Skycoin共识算法白皮书](https://www.skycoin.net/whitepapers)*
+* *[方尖碑:Skycoin共识算法 | Information Pages](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
