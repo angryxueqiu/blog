@@ -34,7 +34,8 @@ author = "johnstuartmill"
 ## Consensus highlights
 共识亮点
 
-### 为什使用共识?
+### Why consensus
+为什使用共识?
 
 Skycoin共识算法（“方尖碑”）同步Skycoin在所有的网络节点板块链的状态。这容许一致的计算，即计算用于给定的公钥（或地址）硬币余额时, 在该执行的计算的每个节点都会有相同的值。
 
