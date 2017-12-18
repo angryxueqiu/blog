@@ -18,7 +18,7 @@ author = "johnstuartmill"
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [共识亮点](#consensus-highlights)
-    - [为什么使用共识?](#why-consensus)
+    - [为什么使用共识?](#为什使用共识?)
     - [高可扩展性和低能源消耗](#high-scalability-and-low-energy-consumption)
     - [协同攻击下的稳健性](#robust-to-coordinated-attacks)
     - [“51％攻击”](#the-%E2%80%9C51-percent-attack%E2%80%9D)
@@ -76,9 +76,9 @@ Skycoin共识算法（“方尖碑”）同步Skycoin在所有的网络节点板
 
 2.  *采集块*.每个共识节点把由块制定者生成的块收集，并将它们放入由块容器（和板块链分开）之后以块序列号标签。
 
-3.  *选择中奖块*.每个共识节点，在接收到足够大的号码1的候选块的或当满足其他条件，通过找出最多块制作者所做出来的块。中间的联系由确定性去因决定。这样的块会被标记为“本地赢家” 2和附加到本地板块链。对应于本地赢家的块序列号的键-值对会被删除，从而回收储存。当地赢家的哈希密码是广播/公布。
+3.  *选择中奖块*.每个共识节点，在接收到足够大的号码[^1]的候选块的或当满足其他条件，通过找出最多块制作者所做出来的块。中间的联系由确定性去因决定。这样的块会被标记为“本地赢家” [^2]和附加到本地板块链。对应于本地赢家的块序列号的键-值对会被删除，从而回收储存。当地赢家的哈希密码是广播/公布。
 
-4.   *验证步骤* 。每个节点储存了对其他节点初所报导的本地获奖者统计数据。当本地获奖者已经通过全部或大部分的节点3，节点就会确定整体赢家的序列号，。如果全球赢家就正正是当地的赢家，则节点继续像上述一运作样。否则，根据外部数据和本地日志节点会做出以下之一个决定，:（a）重新同步本身与网络或（b）退出共识和/或块制作 (c)保持其板块链，并请求紧急停止。
+4.   *验证步骤* 。每个节点储存了对其他节点初所报导的本地获奖者统计数据。当本地获奖者已经通过全部或大部分的节点[^3]，节点就会确定整体赢家的序列号，。如果全球赢家就正正是当地的赢家，则节点继续像上述一运作样。否则，根据外部数据和本地日志节点会做出以下之一个决定，:（a）重新同步本身与网络或（b）退出共识和/或块制作 (c)保持其板块链，并请求紧急停止。
 
 [^1]: 这是在算法之中可以自由配置的参数。
 [^2]: 在某些理想的条件下，局部优胜者（对于给定的块序列号）都是相同的，即包括相同的一组交易。差别是由于网络等待时间，交易的频率高，序列之外的消息传递，消息丢失，故障或恶意节点等
@@ -96,7 +96,7 @@ for Consensus over P2P Network.
 <https://github.com/skycoin/whitepapers/blob/master/Sky-%20Opinion%20Dynamics%20Based%20Consensus%20for%20P2P%20Network%20with%20Trust%20Relationships.pdf>
 201?
 
-*Read more:*
+*阅读更多：*
 
 * *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
 * *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-skycoin-consensus-algorithm/)*
